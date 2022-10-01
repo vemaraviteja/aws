@@ -3,7 +3,7 @@
 
 ## Create an EKS cluster with 2 nodes & instance type - t2.micro
     eksctl create cluster \
-    --name my-clu \
+    --name my-clus \
     --region us-east-1 \
     --nodegroup-name my-nodes \
     --node-type t2.micro \
